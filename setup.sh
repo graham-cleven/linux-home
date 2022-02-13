@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # required for Vim auto-complete
 curl -sL install-node.vercel.app/lts | bash

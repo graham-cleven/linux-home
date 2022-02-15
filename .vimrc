@@ -1,4 +1,3 @@
-set nu
 set cursorline
 set pastetoggle=<F2>
 syntax on
@@ -18,11 +17,7 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
   \ 'coc-tsserver'
     \ ]
-
-
 call plug#end()

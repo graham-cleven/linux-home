@@ -14,8 +14,6 @@ set number
 call plug#begin()
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
-
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
   \ 'coc-tsserver'

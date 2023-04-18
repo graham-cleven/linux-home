@@ -19,3 +19,6 @@ if &term =~ '^screen'
     execute "set <xRight>=\e[1;*C"
     execute "set <xLeft>=\e[1;*D"
 endif  
+
+# make comments easier to read on OSX
+highlight Comment ctermfg=green
